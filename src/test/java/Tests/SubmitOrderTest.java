@@ -23,6 +23,7 @@ import TestComponents.BaseTest;
 public class SubmitOrderTest extends BaseTest {
 	
 	String productName = "ADIDAS ORIGINAL";
+	//Comment added to test CICD
 	
 	@Test(dataProvider="getData", groups= {"Purchase"})
 	public void submitOrder(HashMap<String, String> input) throws IOException, InterruptedException {
